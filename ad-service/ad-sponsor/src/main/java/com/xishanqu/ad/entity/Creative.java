@@ -26,7 +26,7 @@ public class Creative {
 
     @Basic
     @Column(name = "name",nullable = false)
-    private Long name;
+    private String name;
 
     @Basic
     @Column(name = "type",nullable = false)
